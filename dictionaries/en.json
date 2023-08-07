@@ -1,0 +1,7 @@
+{
+  "form": {
+    "name": "Name",
+    "emal": "Email",
+    "city": "City"
+  }
+}
