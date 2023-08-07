@@ -1,7 +1,10 @@
 {
   "form": {
     "name": "Name",
-    "emal": "Email",
+    "email": "Email",
     "city": "City"
+  },
+  "about": {
+    "title": "About"
   }
 }

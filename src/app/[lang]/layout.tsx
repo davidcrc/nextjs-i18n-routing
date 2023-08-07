@@ -1,6 +1,7 @@
-import "./globals.css";
+import "../globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Nabvar from "@/components/Nabvar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,11 +15,16 @@ export default function RootLayout({
   params,
 }: {
   children: React.ReactNode;
+  params: { lang: string };
 }) {
-  console.log("params", params);
+  const locale = params.lang || "en";
+
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang={locale}>
+      <body className={inter.className}>
+        <Nabvar />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }

@@ -1,7 +1,10 @@
 {
   "form": {
     "name": "Nombre",
-    "emal": "Correo",
+    "email": "Correo",
     "city": "Pais"
+  },
+  "about": {
+    "title": "Acerca de"
   }
 }
