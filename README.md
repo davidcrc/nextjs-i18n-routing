@@ -1,6 +1,6 @@
 # Basic i18n routing from Nextjs docs
 
--
+- The proyect is running in branch with-lang
 
 ## Getting Started
 
@@ -15,3 +15,5 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+NO IMAGE HERE, use with_lang branch
